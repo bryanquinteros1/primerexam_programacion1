@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="cumple.MainPage">
+
+    <StackLayout  VerticalOptions="Center"
+                  HorizontalOptions="Center">
+
+       
+        <Entry Placeholder=" numero" x:Name="Numero1"/>
+        <Label Text="El numero se multiplica por 20 se le suma 73 y al resultado lo multiplica por 5" TextColor="Black"/>
+
+        <Entry Placeholder="multiplica por 20" x:Name="multi20"/>
+        <Entry Placeholder="sumarle 73" x:Name="sum73"/>
+        <Entry Placeholder="multiplicar por 5" x:Name="multi5"/>
+        <Entry Placeholder="sumarle el no. de mes" x:Name="mes"/>
+
+        <Entry Placeholder="resultado" x:Name="Resultado"/>
+        <Button Text="calcular" Clicked="Button_Clicked"/>
+
+
+
+        <Label Text="Se suma la fecha del mes de cumpleaños y se resta 365" TextColor="Black"/>
+        <Entry Placeholder="resultado" x:Name="resul"/>
+        <Entry Placeholder="se resta 365" x:Name="resta"/>
+        
+        <Entry Placeholder="resultado"  x:Name="Resultadoo"/>
+        <Label Text="primeros dos digitos el dia y los otros el mes" TextColor="Black"/>
+        <Button  Text="calcular" Clicked="Button_Clicked_1"/>
+
+    </StackLayout>
+
+</ContentPage>
+
