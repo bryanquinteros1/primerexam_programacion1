@@ -1,0 +1,29 @@
+﻿
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App3.MainPage">
+
+    <StackLayout VerticalOptions="Center"
+                 HorizontalOptions="Center">
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Adivinador de numero que estas pensando" TextColor="Black"/>
+        </Frame>
+        <Entry Placeholder=" numero" x:Name="Numero1"/>
+        <Label Text="el numero lo multiplica por dos, le suma 8 y el resultado lo multiplica por 5" TextColor="Black"/>
+
+        
+        <Entry Placeholder=" por 2" x:Name="Numero2"/>
+        <Entry Placeholder="sumale 8" x:Name="Sum8"/>
+        <Entry Placeholder="multi por 5" x:Name="mult5"/>
+        <Entry Placeholder="resultado" x:Name="Resultado"/>
+        <Button Text="calcular" Clicked="Button_Clicked"/>
+
+
+        <Label Text="al resultado le quita una cifra y le resta 4" TextColor="Black"/>
+        <Entry Placeholder="resultado sin una cifra" x:Name="Resin"/>
+        <Entry Placeholder="le resta 4" x:Name="Rest"/>
+        <Entry Placeholder="resultado"  x:Name="Resultadoo"/>
+        <Button Text="calcular" Clicked="Button_Clicked_1"/>
+        
+    </StackLayout>
+</ContentPage>
